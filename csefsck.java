@@ -9,7 +9,7 @@ public class csefsck {
 	static boolean[] nofreeblock;
 	public static void readSuper() {
 		try {
-			FileReader reader = new FileReader("fusedata.0"); // 读取文本中内容
+			FileReader reader = new FileReader("fusedata.0"); // Read the root file
 			BufferedReader br = new BufferedReader(reader);
 			String s="";
 			while(true){
